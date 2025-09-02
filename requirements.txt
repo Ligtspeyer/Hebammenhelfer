@@ -1,0 +1,16 @@
+# Email and IMAP handling
+imapclient==3.0.1
+pyzmail36==1.0.5
+
+# HTML parsing
+beautifulsoup4==4.12.3
+
+# GUI framework (included with Python, but listing for completeness)
+# tkinter is part of Python standard library
+
+# PyInstaller for building executables
+pyinstaller==6.3.0
+
+# Additional dependencies that may be required
+lxml==5.1.0
+html5lib==1.1
