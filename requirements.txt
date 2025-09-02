@@ -1,16 +1,26 @@
+# Requirements for hebamme2.py
 # Email and IMAP handling
-imapclient==3.0.1
-pyzmail36==1.0.5
+imapclient>=3.0.1
+pyzmail36>=1.0.5
 
 # HTML parsing
-beautifulsoup4==4.12.3
+beautifulsoup4>=4.12.3
 
-# GUI framework (included with Python, but listing for completeness)
-# tkinter is part of Python standard library
+# GUI framework (tkinter is part of Python standard library)
+# No additional installation required for tkinter
 
-# PyInstaller for building executables
-pyinstaller==6.3.0
+# Optional: PyInstaller for building executables
+pyinstaller>=6.3.0
 
-# Additional dependencies that may be required
-lxml==5.1.0
-html5lib==1.1
+# Additional HTML parsing dependencies
+lxml>=5.1.0
+html5lib>=1.1
+
+# Note: The following modules are part of Python standard library:
+# - datetime
+# - re
+# - webbrowser
+# - json
+# - os
+# - ssl
+# - tkinter (including ttk, messagebox, simpledialog)
